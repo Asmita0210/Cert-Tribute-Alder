@@ -54,6 +54,7 @@ h3{
 .bio-list {
   margin-top: -15px;
   font-family:"Intel One Mono", monospace;
+   font-weight: 500;
 }
 
 .his-pokemon {
@@ -92,7 +93,7 @@ padding: 16px;
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  max-width: 800px;
+  max-width: 98%; 
   margin: auto;
 }
 
@@ -123,4 +124,23 @@ strong {
 
 .facts {
   padding: 2.5px 0px 5px 0px;
+}
+
+footer {
+  font-size: 10px;
+}
+
+.poke-name {
+font-family: "Alfa Slab One", serif;
+font-size: 28px;
+}
+
+.tribute-info, .facts {
+  font-family: 'Vollkorn', serif;
+  font-size: 25px;
+}
+
+.Alder-Benga {
+  display: flex;
+  align-items: center;
 }
